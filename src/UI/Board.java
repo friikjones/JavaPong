@@ -42,6 +42,7 @@ public class Board extends JPanel {
         g2d.setColor(Color.gray);
         g2d.draw(gameBall.getShape());
         gameBall.position = new Vector2(100,100);
+        gameBall.updateShape();
         g2d.draw(gameBall.getShape());
         
         
