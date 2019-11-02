@@ -31,6 +31,9 @@ public class Ball {
 		this.shape = shape;
 	}
 	
+	public void updateShape() {
+		shape = new Ellipse2D.Double(position.x, position.y, size[0], size[1]);
+	}
 	
 	
 	
