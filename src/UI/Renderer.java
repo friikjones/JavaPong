@@ -9,9 +9,9 @@ public class Renderer extends JFrame {
     }
 
     private void initUI(int scale) {
-
-        add(new Board());
-
+        Board board = new Board();
+        add(board);
+        board.RunThread();
         setSize(900*scale, 500*scale);
 
         setTitle("Application");

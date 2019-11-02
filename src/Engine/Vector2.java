@@ -6,7 +6,7 @@ public class Vector2 {
 	public Vector2() {
 
 	}
-	public Vector2(int x, int y) {
+	public Vector2(float x, float y) {
 		this.x = x;
 		this.y = y;
 	}
